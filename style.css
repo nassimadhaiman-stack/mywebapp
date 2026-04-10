@@ -450,6 +450,18 @@ body {
     color: #666;
 }
 
+.calendly-container {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+}
+
+.calendly-inline-widget {
+    border-radius: var(--border-radius);
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -543,6 +555,10 @@ body {
 
     .contact-info {
         grid-template-columns: 1fr;
+    }
+
+    .calendly-inline-widget {
+        min-height: 550px !important;
     }
 
     .services-grid,

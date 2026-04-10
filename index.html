@@ -174,10 +174,10 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section with Calendly Integration -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Nous Contacter</h2>
+            <h2>Réservez Votre Événement</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="info-item">
@@ -198,22 +198,10 @@
                     </div>
                 </div>
 
-                <form class="contact-form">
-                    <input type="text" placeholder="Votre nom" required>
-                    <input type="email" placeholder="Votre email" required>
-                    <input type="date" required>
-                    <select required>
-                        <option value="">Sélectionnez un service</option>
-                        <option value="anniversaire">Anniversaire</option>
-                        <option value="bapteme">Baptême</option>
-                        <option value="mariage">Mariage</option>
-                        <option value="entreprise">Événement Corporatif</option>
-                        <option value="photo">Séance Photo</option>
-                        <option value="autre">Autre</option>
-                    </select>
-                    <textarea placeholder="Description de votre événement" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Envoyer la Demande</button>
-                </form>
+                <div class="calendly-container">
+                    <div class="calendly-inline-widget" data-url="https://gmail.com/nassimadhaiman" style="min-width:320px; height:650px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+                </div>
             </div>
         </div>
     </section>
